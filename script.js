@@ -1,4 +1,5 @@
 "use strict";
+
 import Circle from "./Circle.js";
 import Rectangle from "./Rectangle.js";
 import Text from "./Text.js";
@@ -14,3 +15,8 @@ let text = new Text("Жил был ежик");
 console.log(text.length());
 
 let showform = new showForm();
+
+showform.getInputText();
+showform.getButton();
+
+

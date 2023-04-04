@@ -4,6 +4,10 @@ export default class Circle {
     constructor(radius){
         this.#radius = radius;
     }
+
+    setRadius(radius){
+        this.#radius = radius;
+    }
     Radius(){
         return this.#radius;
     }
